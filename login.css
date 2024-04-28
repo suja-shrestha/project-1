@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-image: url(/image/background/red-shirt-gift-boxes-copy-space.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* .head .nav-item {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid black;
+    height: 90px;
+    border-radius: 10px;
+   
+    border-color: white;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+} */
+
+.login {
+    width: 23%;
+    height: 50%px;
+    padding-left: 5%;
+    padding-top: 2%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 6px 8px rgba(165, 87, 87, 0.5);
+    overflow: auto;
+}
+
+#email,
+#pass {
+    background: transparent;
+    color: white;
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#button {
+    margin: 20px 0 0 0px;
+    width: 80%;
+    height: 34px;
+    background: #b62f0aa8;
+    font-weight: bold;
+}
+
+.sign-up {
+    color: antiquewhite;
+    font-size: small;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(255, 0, 0, 0.5);
+    margin-bottom: 8%;
+}
+
+input::placeholder {
+    color:white;
+}
+input{
+    border-radius: 5px;
+}
+
+#button {
+    color: white;
+}
+
+#button:active {
+    color: red;
+    background-color: black;
+}
