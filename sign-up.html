@@ -27,21 +27,49 @@
             <div class="left">
                 <h1>Create New Account</h1>
                 <form>
-                    <label for="f-name">First Name</label><br>
-                    <input type="text" name="f-name" id="f-name" placeholder="Enter Name"><br>
-                    <label for="l-name">Last Name</label><br>
-                    <input type="text" name="l-name" id="l-name" placeholder="Enter Surname"><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" placeholder="Enter Email"><br>
-                    <label for="pass">Password</label><br>
-                    <input type="password" name="password" id="password"><br>
-                    <input type="submit" name="Create" value="Create" id="Create"><br>
-                    <p>Already Have An Acocunt? <a href="login.html">Login</a></p>
+                    <div class="flex">
+                        <div class="form-group">
+                            <label style="color: white;" for="f-name">First Name</label><br>
+                            <input type="text" name="f-name" id="f-name" placeholder="Enter Name"><br>
+                        </div>
+                        <div class="form-group">
+                            <label style="color: white;" for="l-name">Last Name</label><br>
+                            <input type="text" name="l-name" id="l-name" placeholder="Enter Surname"><br>
+                        </div>
+
+
+                    </div>
+                    <div class="flex">
+                        <div class="form-group">
+                            <label style="color: white;" for="email">Email</label><br>
+                            <input type="email" name="email" id="email" placeholder="Enter Email"><br>
+                        </div>
+                        <div class="form-group">
+                            <label style="color: white;" for="pass">Password</label><br>
+                            <input type="password" name="pass" id="pass" placeholder="Enter Password"><br>
+                        </div>
+                    </div>
+                    <input type="submit" name="Create" value="Create" id="create"><br>
+                    <p>Already Have An Acocunt? <a href="http://127.0.0.1:5500/login.html" target="_self">Login</a></p>
+
                 </form>
             </div>
-            <div class=" right">
-                <img src="" alt="">
+            <div class="right">
+                <div class="image-wrapper">
+                    <img src="/image/MY-LOGO-LIMITLESS/Limitless Fashion.png" alt="">
+                </div>
+                <div class="description">
+                    <h2>Limitless Fashion</h2>
+                    <p>Your destination for chic and trendy apparel. Discover the latest styles and elevate your
+                        wardrobe with our curated collections.</p>
+                </div>
+                <div class="description-1">
+                    <h2>Limitless Fashion</h2>
+                    <p>Know Your Fasion.</p>
+                </div>
             </div>
+
+
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
